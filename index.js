@@ -33,10 +33,7 @@ var Typer={
 			}
 		}
 		
-    		else if(key.key
-			
-			n
-			==20){
+    		else if(key.keyCode==20){
 			Typer.deniedCount++; 
 			
 			if(Typer.deniedCount>=3){
