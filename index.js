@@ -33,7 +33,10 @@ var Typer={
 			}
 		}
 		
-    		else if(key.keyCode==20){
+    		else if(key.key
+			
+			n
+			==20){
 			Typer.deniedCount++; 
 			
 			if(Typer.deniedCount>=3){
@@ -98,7 +101,7 @@ function replaceUrls(text) {
 }
 
 Typer.speed=3;
-Typer.file="CodeNerve.txt";
+Typer.file="Balzzee.txt";
 Typer.init();
  
 var timer = setInterval("t();", 30);
